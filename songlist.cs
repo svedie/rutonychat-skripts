@@ -99,7 +99,7 @@ namespace RutonyChat
 
                 foreach (string strLine in lines) 
                 {
-                    if (strLine.contains(text)) 
+                    if (strLine.Contains(text)) 
                     {
                         return true;
                     }
