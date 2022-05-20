@@ -81,7 +81,7 @@ namespace RutonyChat
                 if(cr.CreditsQty > 0)
                 {
                     RutonyBotFunctions.FileAddString(FileName_Requests, request);
-                    RutonyBotFunctions.FileAddString(FileName_Requests_Stream, request);
+                    RutonyBotFunctions.FileAddString(FileName_Requests_Stream, songname);
                     RutonyBot.BotSay(site, string.Format(Text_SuccessfullyAdded, username, request));
                     // reduce the number of tickets by 1
                     cr.CreditsQty -= 1;
